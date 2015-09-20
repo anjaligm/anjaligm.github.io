@@ -1,0 +1,162 @@
+body{
+    font-family:ubuntu !important;
+    } 
+    .head{
+        width:260px;
+        height: 60px;
+        padding: 15px;
+        color: #FFFFFF;
+        background-color: #074827;
+        font-weight: bold;
+        text-align: center;
+        font-family: verdana;
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+    .body{
+        width:260px;
+        height:350px;
+        padding: 10px;
+        color: #FFFFFF;
+        background-color: grey;
+        font-weight: bold;
+        text-align: center;
+        font-family: verdana;
+        box-shadow: 5px 5px 5px 5px #888888;
+    }
+   .head1{
+        width:290px;
+        height:290px;
+        padding: 22%;
+        color: #FFFFFF;
+        background-color: #b6b6b6;
+        font-weight: bold;
+        text-align: center;
+        font-family: verdana;
+        box-shadow: 5px 5px 5px 5px #888888;
+        border-radius: 155px;
+        margin-top: 30px;
+    }
+    
+
+
+
+.first{
+	min-height: 356px;
+	background:url('http://www.boylanbridgebrass.com/wp-content/uploads/2013/02/Website-Background.jpg');
+}
+.aa{
+color: grey;
+font-size: 25px;
+vertical-align:middle;
+width: 100%;
+text-align: center;
+text-decoration: none;
+
+}
+.aa:hover {
+color:white;
+font-size: 25px;
+vertical-align:middle;
+width: 100%;
+text-align: center;
+text-decoration: none;
+
+}
+.aa:active{
+color:black;
+font-size: 25px;
+vertical-align:middle;
+width: 100%;
+text-align: center;
+text-decoration: none;
+}
+
+
+.ll{
+padding-right:40px!important;
+}
+.v-center{
+height: 100%;
+color: grey;
+margin-top: 5%;
+}
+.navb{
+	margin-top: 30px;
+
+}
+.btn-dwn{
+	height: 58px;
+	width: 58px;
+	line-height: 58px;
+	border-radius: 50px;
+	color: rgba(255,255,255,.8);
+	background-color: rgba(0,0,0,.6);
+	position: absolute;
+	font-size: 18px;
+	text-align: center;
+	left: 50%;
+	bottom: 60px;
+	border: 0px;
+}
+.second{
+	background-color: #46453F;
+	color:grey;
+}
+
+.thd{
+    color: #4C9DD8;
+}
+.third{
+    background-color: #494949;
+}
+.fur{
+    color: grey;
+}
+.fourth{
+    background-color: #46453F;
+}
+.fiv{
+    color: grey;
+}
+.fifth{
+    background-color: #E6E6E6;
+}
+.sev{
+    color:black;
+}
+.seven{
+    background-color: #6D6D6D;
+}
+.eigh{
+    color:#B38048;
+}
+.eight{
+    background-color: #343C3E;
+}
+.nss{
+    font-size: 25px;
+    padding:6%;
+    color:blue;
+}
+.nss{
+    font-size: 25px;
+    padding:6%;
+    color:blue;
+}
+.nss1{
+    margin-top: 5%;
+}
+.pro{
+    margin-top: 5%;
+}
+.no{
+    padding:2%;
+}
+.gm{
+    margin-top:2%;
+}
+.tech{
+   margin-top:2%; 
+}
+
+
