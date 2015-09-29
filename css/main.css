@@ -1,11 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url(https://fonts.googleapis.com/css?family=Lora);
-@import url(https://fonts.googleapis.com/css?family=Lora|Quicksand|Open+Sans+Condensed:300|Lateef|Cinzel|Lustria|Gentium+Basic|Cardo|Tinos);
-@import url(https://fonts.googleapis.com/css?family=Lora|Quicksand|Open+Sans+Condensed:300|Lateef|Cinzel|Lustria|Gentium+Basic);
-@import url(https://fonts.googleapis.com/css?family=Lora|Quicksand|Open+Sans+Condensed:300|Lateef|Cinzel|Lustria);
-body{
-	font-family: "ubuntu" !important;
+
+body,h1,h2,h3,h4,h5,h6{
+	font-family: 'Quicksand', sans-serif;
 }
+
+.col-md-6.home.about h1{
+font-size: 36px;
+margin:0px;
+font-weight: 400;
+}
+.col-md-6.home.about h2{
+font-size: 22px;
+margin:10px 0;
+font-weight: 100;
+}
+.col-md-6.home.about h3{
+font-size: 24px;
+opacity: 0.7;
+margin:10px 0;
+}
+
 
 .main-blog{
 	background-color: #F2F2F2;
@@ -23,19 +36,22 @@ body{
 
 }
 .home-hero{
-	margin:200px 0!important;
+	margin:200px 0 150px 0!important;
 }
-.nav1{
-	/*padding: 20px 20px 20px 0;*/
+
+.site-title h3{
+	margin: 0;
+	margin-right:10px;
 }
 .nav1 ul{
 	padding:0 !important;
+	margin:5px;
 }
 .nav1 li{
 display: inline-block;
 font-size: 14px;
 padding: 10px 10px 10px 0;
-font-family: roboto;
+font-family: 'Quicksand', sans-serif;
 }
 .nav1 li a{
 text-decoration: none;
@@ -55,12 +71,12 @@ color:#484947;
 font-size:25px;
 text-align: right;
 padding-top:10px;
-font-family: roboto;
+font-family: 'Quicksand', sans-serif;
 
 }
 
 #round{
-	height: 100%;
+	height: 200px;
 	width: 200px;
 	border-radius: 200px;
 }
@@ -74,13 +90,14 @@ font-family: roboto;
     background-color: #F2F2F2;
     box-shadow: 3px 3px 3px;
 }
+
+
 .border{
 padding: 10%;
-font-family: 'Tinos', serif;
+
 }
 .edu{
 	background-color: #484947;
-	width: 100%;
 }
 .college h4::after{
 	display: block;
@@ -96,12 +113,11 @@ font-family: 'Tinos', serif;
 }
 .heading{
 	font-size: 30px;
-	font-family: lora;
+	font-family: 'Quicksand', sans-serif;
 }
 .college{
 	border: 1px solid grey;
 	height: 200px;
-	width: 100%;
 	color: grey;
 	padding: 10px;
     background-color: #F2F2F2;
@@ -113,7 +129,6 @@ padding: 10%;
 }
 .edu{
 	background-color: #484947;
-	width: 100%;
 }
 .edu h5{
 	font-size: 18px !important;
@@ -138,7 +153,6 @@ padding: 10%;
 }
 .main{
 	background-color: #F2F2F2;
-	width: 100%;
 	height: 600px;
 	
 }
@@ -153,7 +167,7 @@ padding: 10%;
 }
 .technical {
 	color: grey;
-	font-family: 'Gentium Basic', serif;
+	font-family: 'Quicksand', sans-serif;
 }
 .technical h3::after{
 	display: block;
@@ -172,12 +186,11 @@ padding: 10%;
 }
 .main1{
 	background-color: #484947;
-	width: 100%;
 	
 }
 .text1{
 	color: #B9B9B9;
-	font-family: 'Lustria', serif;
+	
 	font-size: 20px;
 	line-height: 1.8;
 }
@@ -198,12 +211,13 @@ padding: 10%;
 }
 .main2{
 	background-color: #F2F2F2;
-	width: 100%;
-	
+}
+.noPadding{
+	padding:0;
 }
 .text2{
 	color: #B9B9B9;
-	font-family: 'Lustria', serif;
+	
 	font-size: 20px;
 	line-height: 1.8;
 }
@@ -223,14 +237,13 @@ font-size: 22px !important;
 font-size: 18px !important;
 }
 .content{
-font-family: 'Gentium Basic', serif;
+font-family: 'Quicksand', sans-serif;
 }
 .master3{
 	padding: 10% !important;
 }
 .main3{
 	background-color: #484947;
-	width: 100%;
 	
 }
 .text2 h3::after{
