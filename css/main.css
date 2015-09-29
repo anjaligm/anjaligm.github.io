@@ -1,157 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+@import url(https://fonts.googleapis.com/css?family=Lora|Quicksand|Open+Sans+Condensed:300|Lateef|Cinzel|Lustria|Gentium+Basic|Cardo|Tinos);
+@import url(https://fonts.googleapis.com/css?family=Lora|Quicksand|Open+Sans+Condensed:300|Lateef|Cinzel|Lustria|Gentium+Basic);
+@import url(https://fonts.googleapis.com/css?family=Lora|Quicksand|Open+Sans+Condensed:300|Lateef|Cinzel|Lustria);
 body{
-    font-family:ubuntu !important;
-    } 
-    .head{
-        width:260px;
-        height: 60px;
-        padding: 15px;
-        color: #FFFFFF;
-        background-color: #074827;
-        font-weight: bold;
-        text-align: center;
-        font-family: verdana;
-        box-shadow: 5px 5px 5px 5px #888888;
-    }
-    .body{
-        width:260px;
-        height:350px;
-        padding: 10px;
-        color: #FFFFFF;
-        background-color: grey;
-        font-weight: bold;
-        text-align: center;
-        font-family: verdana;
-        box-shadow: 5px 5px 5px 5px #888888;
-    }
-   .head1{
-        width:290px;
-        height:290px;
-        padding: 22%;
-        color: #FFFFFF;
-        background-color: #b6b6b6;
-        font-weight: bold;
-        text-align: center;
-        font-family: verdana;
-        box-shadow: 5px 5px 5px 5px #888888;
-        border-radius: 155px;
-        margin-top: 30px;
-    }
-    
-
-
-
-.first{
-	min-height: 356px;
-	background:url('http://www.boylanbridgebrass.com/wp-content/uploads/2013/02/Website-Background.jpg');
+	font-family: "ubuntu" !important;
 }
-.aa{
-color: grey;
-font-size: 25px;
-vertical-align:middle;
-width: 100%;
-text-align: center;
+
+.main-blog{
+	background-color: #F2F2F2;
+	}
+	.fixed{
+		position: fixed;
+	width: 100%;
+	background-color: #fff;
+	z-index:1;
+	}
+
+.home-section{
+	height:600px;
+	background-color: #F2F2F2; 
+
+}
+.home-hero{
+	margin:200px 0!important;
+}
+.nav1{
+	/*padding: 20px 20px 20px 0;*/
+}
+.nav1 ul{
+	padding:0 !important;
+}
+.nav1 li{
+display: inline-block;
+font-size: 14px;
+padding: 10px 10px 10px 0;
+font-family: roboto;
+}
+.nav1 li a{
 text-decoration: none;
-
+color:grey;
 }
-.aa:hover {
-color:white;
-font-size: 25px;
-vertical-align:middle;
-width: 100%;
-text-align: center;
+.nav1 li a:hover{
 text-decoration: none;
-
-}
-.aa:active{
 color:black;
-font-size: 25px;
-vertical-align:middle;
-width: 100%;
-text-align: center;
-text-decoration: none;
+border-bottom: 1px solid black;
 }
-
-
-.ll{
-padding-right:40px!important;
+.nav1 li a:active{
+color:grey;
+border-bottom: 1px solid black;
 }
-.v-center{
-height: 100%;
-color: grey;
-margin-top: 5%;
-}
-.navb{
-	margin-top: 30px;
+.text{
+color:#484947;
+font-size:25px;
+text-align: right;
+padding-top:10px;
+font-family: roboto;
 
 }
-.btn-dwn{
-	height: 58px;
-	width: 58px;
-	line-height: 58px;
-	border-radius: 50px;
-	color: rgba(255,255,255,.8);
-	background-color: rgba(0,0,0,.6);
-	position: absolute;
-	font-size: 18px;
-	text-align: center;
-	left: 50%;
-	bottom: 60px;
-	border: 0px;
+
+#round{
+	height: 100%;
+	width: 200px;
+	border-radius: 200px;
 }
-.second{
-	background-color: #46453F;
-	color:grey;
+.middle{
+	margin-top: 27px;.college{
+	border: 1px solid grey;
+	height: 200px;
+	width: 100%;
+	color: grey;
+	padding: 10px;
+    background-color: #F2F2F2;
+    box-shadow: 3px 3px 3px;
+}
+.border{
+padding: 10%;
+font-family: 'Tinos', serif;
+}
+.edu{
+	background-color: #484947;
+	width: 100%;
+}
+.college h4::after{
+	display: block;
+	width: 85px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: grey;
+	content: "";
+}
+}
+.about{
+	padding: 0 0 0 60px !important;
+}
+.heading{
+	font-size: 30px;
+	font-family: lora;
+}
+.college{
+	border: 1px solid grey;
+	height: 200px;
+	width: 100%;
+	color: grey;
+	padding: 10px;
+    background-color: #F2F2F2;
+    box-shadow: 3px 3px 3px;
+}
+.border{
+padding: 10%;
+
+}
+.edu{
+	background-color: #484947;
+	width: 100%;
+}
+.edu h5{
+	font-size: 18px !important;
+	/*font-weight: bold;*/
+	color:#484947;
+}
+.edu p{
+	font-size: 16px !important;
+	color:#333333;
 }
 
-.thd{
-    color: #4C9DD8;
+.college h5::after{
+	display: block;
+	width: 85px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: grey;
+	content: "";
 }
-.third{
-    background-color: #494949;
+.master{
+	padding: 10% !important;
 }
-.fur{
-    color: grey;
+.main{
+	background-color: #F2F2F2;
+	width: 100%;
+	height: 600px;
+	
 }
-.fourth{
-    background-color: #46453F;
+.technical h5{
+	font-size: 22px !important;
+	font-weight: bold;
+	color:#484947;
 }
-.fiv{
-    color: grey;
+.technical p{
+	font-size: 18px !important;
+	color:#333333;
 }
-.fifth{
-    background-color: #E6E6E6;
+.technical {
+	color: grey;
+	font-family: 'Gentium Basic', serif;
 }
-.sev{
-    color:black;
+.technical h3::after{
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: grey;
+	content: "";
 }
-.seven{
-    background-color: #6D6D6D;
+.logos>div{
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
-.eigh{
-    color:#B38048;
+.master1{
+	padding: 10% !important;
 }
-.eight{
-    background-color: #343C3E;
+.main1{
+	background-color: #484947;
+	width: 100%;
+	
 }
-.nss{
-    font-size: 25px;
-    padding:1%;
-    color:blue;
+.text1{
+	color: #B9B9B9;
+	font-family: 'Lustria', serif;
+	font-size: 20px;
+	line-height: 1.8;
 }
-.nss1{
-    margin-top: 2%;
+.size{
+	font-weight: bold;
+	font-size: 25px;
 }
-.pro{
-    margin-top: 2%;
+.text1 h3::after{
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: grey;
+	content: "";
 }
-.no{
-    padding:2%;
+.master2{
+	padding: 10% !important;
 }
-.gm{
-    margin-top:2%;
+.main2{
+	background-color: #F2F2F2;
+	width: 100%;
+	
 }
-.tech{
-   margin-top:2%; 
+.text2{
+	color: #B9B9B9;
+	font-family: 'Lustria', serif;
+	font-size: 20px;
+	line-height: 1.8;
 }
+.content h3::after{
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: grey;
+	content: "";
+}
+
+.content h5{
+font-size: 22px !important;
+}
+.content p{
+font-size: 18px !important;
+}
+.content{
+font-family: 'Gentium Basic', serif;
+}
+.master3{
+	padding: 10% !important;
+}
+.main3{
+	background-color: #484947;
+	width: 100%;
+	
+}
+.text2 h3::after{
+	display: block;
+	width: 100px;
+	height: 3px;
+	margin-top: 10px;
+	background-color: grey;
+	content: "";
+}
+/*.cont{
+position: fixed;
+height: 100px;
+width:100%;
+bottom:0;
+background-color: #fff;
+}
+*/
+.padding{
+	padding: 10px;
+}
+.padding a{
+	padding:5px;
+	color:black;
+
+}
+
 
 
