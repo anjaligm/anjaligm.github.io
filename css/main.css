@@ -81,7 +81,9 @@ font-family: 'Quicksand', sans-serif;
 	border-radius: 200px;
 }
 .middle{
-	margin-top: 27px;.college{
+	margin-top: 27px;
+}
+	.college{
 	border: 1px solid grey;
 	height: 200px;
 	width: 100%;
@@ -130,38 +132,42 @@ padding: 10%;
 .edu{
 	background-color: #484947;
 }
-.edu h5{
-	font-size: 18px !important;
-	/*font-weight: bold;*/
-	color:#484947;
+.edu-text{
+	color: #B9B9B9;
 }
-.edu p{
-	font-size: 16px !important;
-	color:#333333;
+.edu h1{
+ color:#484947;
+ font-size: 25px;
+ margin:0px;
+ font-weight: 400;
 }
-
-.college h5::after{
-	display: block;
-	width: 85px;
-	height: 3px;
-	margin-top: 10px;
-	background-color: grey;
-	content: "";
+.edu h2{
+font-size: 20px;
+margin:10px 0;
+font-weight: 400;
+}
+.edu h3{
+font-size: 18px;
+opacity: 1.7;
+margin:10px 0;
 }
 .master{
 	padding: 10% !important;
 }
 .main{
 	background-color: #F2F2F2;
-	height: 600px;
+	/*height: 600px;*/
 	
 }
-.technical h5{
+.master h1{
+
+}
+.technical h2{
 	font-size: 22px !important;
-	font-weight: bold;
+	font-weight:400;
 	color:#484947;
 }
-.technical p{
+.technical h3{
 	font-size: 18px !important;
 	color:#333333;
 }
@@ -169,7 +175,7 @@ padding: 10%;
 	color: grey;
 	font-family: 'Quicksand', sans-serif;
 }
-.technical h3::after{
+.tech-head h1::after{
 	display: block;
 	width: 100px;
 	height: 3px;
@@ -188,17 +194,29 @@ padding: 10%;
 	background-color: #484947;
 	
 }
-.text1{
+.number h1{
 	color: #B9B9B9;
-	
-	font-size: 20px;
-	line-height: 1.8;
+    font-size: 36px;
+}
+
+.text1 h1{
+	color: #B9B9B9;
+    font-size: 36px;
+
+}
+.text1 p{
+	color: #B9B9B9;
+    font-size: 22px;
+
 }
 .size{
 	font-weight: bold;
 	font-size: 25px;
 }
-.text1 h3::after{
+.pro img{
+	margin-top: 20px;
+}
+.text1 h1::after{
 	display: block;
 	width: 100px;
 	height: 3px;
@@ -215,13 +233,21 @@ padding: 10%;
 .noPadding{
 	padding:0;
 }
-.text2{
+
+.text2 h1{
 	color: #B9B9B9;
-	
-	font-size: 20px;
-	line-height: 1.8;
+    font-size: 36px;
+
 }
-.content h3::after{
+.text2 p{
+	color: #B9B9B9;
+    font-size: 22px;
+}
+.size{
+	font-weight: bold;
+	font-size: 25px;
+}
+.text2 h1::after{
 	display: block;
 	width: 100px;
 	height: 3px;
@@ -229,10 +255,13 @@ padding: 10%;
 	background-color: grey;
 	content: "";
 }
-
+.content h1{
+font-size: 36px !important;
+}
 .content h5{
 font-size: 22px !important;
 }
+
 .content p{
 font-size: 18px !important;
 }
@@ -246,7 +275,7 @@ font-family: 'Quicksand', sans-serif;
 	background-color: #484947;
 	
 }
-.text2 h3::after{
+.title1 h1::after{
 	display: block;
 	width: 100px;
 	height: 3px;
