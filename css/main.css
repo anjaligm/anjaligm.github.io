@@ -5,18 +5,18 @@ body,h1,h2,h3,h4,h5,h6{
 
 .col-md-6.home.about h1{
 font-size: 36px;
-margin:0px;
+margin:0px !important;
 font-weight: 400;
 }
 .col-md-6.home.about h2{
 font-size: 22px;
-margin:10px 0;
+margin:10px 0 !important;
 font-weight: 100;
 }
 .col-md-6.home.about h3{
 font-size: 24px;
 opacity: 0.7;
-margin:10px 0;
+margin:10px 0  !important;
 }
 
 
@@ -129,11 +129,12 @@ padding: 10%;
 padding: 10%;
 
 }
+.top-head h1{
+color: grey;
+
+}
 .edu{
 	background-color: #484947;
-}
-.edu-text{
-	color: #B9B9B9;
 }
 .edu h1{
  color:#484947;
@@ -202,19 +203,18 @@ margin:10px 0;
 .text1 h1{
 	color: #B9B9B9;
     font-size: 36px;
+    opacity: 0.8;
 
 }
 .text1 p{
 	color: #B9B9B9;
     font-size: 22px;
+    opacity: 0.8;
 
 }
 .size{
 	font-weight: bold;
 	font-size: 25px;
-}
-.pro img{
-	margin-top: 20px;
 }
 .text1 h1::after{
 	display: block;
@@ -237,15 +237,18 @@ margin:10px 0;
 .text2 h1{
 	color: #B9B9B9;
     font-size: 36px;
+    opacity: 0.8;
 
 }
 .text2 p{
 	color: #B9B9B9;
     font-size: 22px;
+    opacity: 0.8;
 }
 .size{
 	font-weight: bold;
 	font-size: 25px;
+	opacity: 0.8;
 }
 .text2 h1::after{
 	display: block;
@@ -283,14 +286,16 @@ font-family: 'Quicksand', sans-serif;
 	background-color: grey;
 	content: "";
 }
-/*.cont{
-position: fixed;
-height: 100px;
-width:100%;
-bottom:0;
-background-color: #fff;
+.master4{
+	padding: 15px !important;
 }
-*/
+.main4{
+	background-color: #F2F2F2;
+	
+}
+.message{
+	text-align: center;
+}
 .padding{
 	padding: 10px;
 }
@@ -299,6 +304,8 @@ background-color: #fff;
 	color:black;
 
 }
-
-
+.message a:hover{
+	text-decoration: none;
+	color: blue;
+}
 
