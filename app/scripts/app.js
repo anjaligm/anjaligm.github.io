@@ -33,7 +33,7 @@ angular
       })
             .when('/app', {
         templateUrl: 'views/app.html',
-        controller: 'AppCtrl',
+        controller: 'AppsCtrl',
         controllerAs: 'app'
       })
       .when('/contact', {
