@@ -132,13 +132,13 @@ nav li {
     color: #484848;
     font-weight: 200;
 }
-.text-vertical-center p{
+
+.text-vertical-center p {
     color: #ff8485;
     font-size: 19px;
     letter-spacing: .5px;
     padding-top: 2px;
 }
-
 
 .header-main {
     display: table;
@@ -212,29 +212,31 @@ section.header-contact {
 }
 
 .about-content .description-row .head-box {
-    width: 275px;
-    height: 200px;
+    width: 235px;
+    height: 180px;
     border: 1px solid #fff;
-    margin-top: 8px;
+    margin-top: 5px;
     margin-right: 5px;
     position: relative;
-    background: #f1f1f1;
-
-        box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    background: #fff;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, .2);
+   /* background: linear-gradient(270deg,#ffa64d,#ffc299);*/
 }
-.about-content .description-row .head-box h3{
-       position: absolute;
+
+.about-content .description-row .head-box h3 {
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
-    color: #444;
-    font-size: 18px;
-    font-weight: 300;
+    color: #ff74b3;
+    font-size: 16px;
+    font-weight: 400;
     width: 150px;
     text-align: center;
-
+    letter-spacing: 1px;
 }
+
 .app-page-wrapper {
     height: auto;
 }
@@ -245,4 +247,3 @@ section.header-contact {
     border: 0;
     border-top: 1px solid #eee;
 }
-
