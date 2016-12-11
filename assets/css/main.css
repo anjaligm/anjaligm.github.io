@@ -145,13 +145,16 @@ nav li {
     position: relative;
     width: 100%;
     height: auto;
-    padding: 14% 0;
+    padding: 13% 0;
 }
 
 section.header-contact {
-    padding: 16% 14%;
+    padding: 16% 0;
 }
-
+.header-contact .container {
+    width: 1000px;
+    margin: 0 auto;
+}
 .social-col p {
     color: #ffcdd0;
     font-size: 14px;
@@ -168,14 +171,24 @@ section.header-contact {
     color: #fff;
 }
 
-.social-col-github {
+/*.social-col-github {
     padding-left: 27%;
-}
+}*/
 
 .about-content {
     width: 700px;
     margin: 0 auto;
-    
+    padding-top: 15px;
+}
+.app-content {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.about-content {
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 15px;
 }
 
 .about-content .media-body {
@@ -193,25 +206,31 @@ section.header-contact {
     font-weight: 400;
 }
 
-.about-content .description-row {
-    padding: 0 15px 15px 0;
-}
-
-.about-content .description-row:first-child {
-    padding-top: 0;
-}
-
-.about-content .description-row:last-child {
-    padding-bottom: 12%;
-}
-
 .about-content .description-row p {
     line-height: 30px;
     letter-spacing: 0.4px;
     font-weight: 400;
 }
 
-.about-content .description-row .head-box {
+.app-content .description-row {
+    padding: 0 15px 15px 0;
+}
+
+.app-content .description-row:first-child {
+    padding-top: 0;
+}
+
+.app-content .description-row:last-child {
+    padding-bottom: 12%;
+}
+
+.app-content .description-row p {
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    font-weight: 400;
+}
+
+.app-content .description-row .head-box {
     width: 235px;
     height: 180px;
     border: 1px solid #fff;
@@ -223,14 +242,14 @@ section.header-contact {
    /* background: linear-gradient(270deg,#ffa64d,#ffc299);*/
 }
 
-.about-content .description-row .head-box h3 {
+.app-content .description-row .head-box h3 {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
     color: #ff74b3;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     width: 150px;
     text-align: center;
