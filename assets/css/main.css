@@ -205,7 +205,10 @@ section.header-contact {
     color: #ff867e;
     font-weight: 400;
 }
-
+.about-content .description{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
 .about-content .description-row p {
     line-height: 30px;
     letter-spacing: 0.4px;
